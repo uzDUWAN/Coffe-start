@@ -39,7 +39,7 @@
     background-image: url("./imges/Bitmap.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 
@@ -51,8 +51,7 @@
 }
 
 .hero__title {
-    margin-top: 230px;
-    margin-bottom: 40px;
+    margin-bottom: 300px;
     color: #FEFCF7;
     font-size: 72px;
     font-family: 'Fraunces', serif;
@@ -70,15 +69,306 @@
 }
 
 .hero__btn {
-    border: none;
-text-align: center;
-font-size: 18px;
-font-family:frauces 9pt ;
-font-weight: 900;
-line-height: 25px;
     width: 217px;
     height: 56px;
     flex-shrink: 0;
     border-radius: 6px;
     background: #0E8784;
+
+
+    color: #FEFCF7;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+}
+
+/*-----tugadi------*/
+
+
+
+.logo-1 {
+    color: #83888F;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 242px;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0.00) 0%, #FEFCF7 100%);
+}
+
+.rasmga{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.rasm-1 {
+    width: 255px;
+    height: 193px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), rgb(251, 248, 248) 0px 0px / 100% 100% no-repeat;
+    margin-left: 70px;
+}
+
+
+.Bosh {
+    display: flex;
+    width: 255px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+.gran-1 {
+    display: flex;
+    width: 255px;
+    flex-direction: column;
+    color: #333D4B;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.light {
+    display: flex;
+    width: 255px;
+    flex-direction: column;
+    color: #333D4B;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.Bosh-2 {
+    display: flex;
+    width: 255px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+
+
+}
+
+.joy {
+    justify-content: space-between;
+    display: flex;
+}
+
+/*==========tugad===========*/
+
+.card {
+    width: 1280px;
+    height: 577px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2C343E;
+
+}
+
+.card h2{
+    margin-top: 40px;
+    top: 400px;
+    color: #fef7f7;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+
+}
+
+.card p {
+    margin-left: 360px;
+    margin-top: 55px;
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    color: #FEFCF7;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.800000011920929;
+}
+
+/*---------tugadi-----*/
+
+
+.card-1{
+
+width: 350px;
+height: 382px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #0E8784;
+}
+.card__rasm{
+    margin-top: 70px;
+    margin-left: 136px;
+    margin-bottom: 40px;
+    width: 61px;
+height: 62px;
+flex-shrink: 0;
+
+}
+
+
+.card__text{
+    margin-left: 46px;
+    display: flex;
+width: 255px;
+flex-direction: column;
+color: #FEFCF7;
+text-align: center;
+font-size: 24px;
+font-family: 'Fraunces', serif;
+font-style: normal;
+font-weight: 900;
+line-height: 32px;
+}
+
+.card__title{
+    margin-left: 47px;
+    margin-top: 30px;
+    display: flex;
+width: 255px;
+flex-direction: column;
+color: #FEFCF7;
+text-align: center;
+font-size: 16px;
+font-family: 'Barlow', sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.joy-1{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*--------Tugadi---===*/
+
+
+.How{
+    margin-left: 15px;
+    margin-top: 50px;
+    display: flex;
+width: 255px;
+flex-direction: column;
+color: #83888F;
+font-size: 24px;
+font-family: 'Fraunces', serif;
+font-style: normal;
+font-weight: 900;
+line-height: 32px;
+
+}
+
+
+.A-01{
+    margin-bottom: 38px;
+    color: #FDD6BA;
+font-size: 72px;
+font-family: 'Fraunces', serif;
+font-style: normal;
+font-weight: 900;
+line-height: 72px;
+}
+
+.Pick{
+    display: flex;
+width: 255px;
+flex-direction: column;
+flex-shrink: 0;
+color: #333D4B;
+font-size: 32px;
+font-family: 'Fraunces', serif;
+font-style: normal;
+font-weight: 900;
+line-height: 36px;
+}
+
+.Select{
+    margin-top: 42px;
+    display: flex;
+width: 285px;
+flex-direction: column;
+flex-shrink: 0;
+color: #333D4B;
+font-size: 16px;
+font-family: 'Barlow', sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.joy-2{
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+}
+
+
+button{
+    width: 217px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #0E8784;    
+
+
+color: #FEFCF7;
+text-align: center;
+font-size: 18px;
+font-family: 'Fraunces', serif;
+font-style: normal;
+font-weight: 900;
+line-height: 25px;
+}
+
+
+
+.card-4{
+    gap: 40px;
+    display: flex;
+    width: 1280px;
+height: 120px;
+flex-shrink: 0;
+background: #2C343E;
+
+}
+.card-4 img{
+    width: 236px;
+height: 26px;
+flex-shrink: 0;
+
+
+}
+.card-4 p{
+    color: #83888F;
+font-size: 12px;
+font-family: 'Barlow', sans-serif;
+font-style: normal;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: 0.923px;
+text-transform: uppercase;
 }
